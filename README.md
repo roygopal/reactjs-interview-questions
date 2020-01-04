@@ -605,6 +605,7 @@
 
     3. In HTML, you need to invoke the function by appending `()`
     Whereas in react you should not append `()` with the function name. (refer "activateLasers" function in the first point for example)
+    4. In HTML functions are passed as string and in React it is passed as a function callback.
 
 
    **[⬆ Back to Top](#table-of-contents)**
