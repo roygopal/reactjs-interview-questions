@@ -1737,7 +1737,7 @@
    **[⬆ Back to Top](#table-of-contents)**
     
 69. ### How you use decorators in React?
-
+    A decorator is a callable that takes a function as an argument and returns a replacement function.
     You can *decorate* your *class* components, which is the same as passing the component into a function. **Decorators** are flexible and readable way of modifying component functionality.
 
     ```jsx harmony
@@ -1762,6 +1762,10 @@
         }
       }
     }
+    
+    setTitle('Profile') return a function that expect WrappedComponent to be passed.
+    In above example we are passing whole component.
+    Read: https://medium.com/@gigobyte/enhancing-react-components-with-decorators-441320e8606a  
     ```
 
     **Note:** Decorators are a feature that didn't make it into ES7, but are currently a *stage 2 proposal*.
